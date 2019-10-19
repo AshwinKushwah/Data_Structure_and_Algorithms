@@ -6,4 +6,4 @@ try:
     else: 
         print(f'{nums} is NOT PALINDROME number.')
 except ValueError:
-    print("Please Enter the number again.5")
+    print("Please Enter the number again.")
