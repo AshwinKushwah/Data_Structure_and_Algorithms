@@ -9,7 +9,7 @@ To Contribute follow the below steps.
 
 4. Run-> git add .
 
-5 . commit your changes. -> git commit -m "your commit message".
+5. Commit your changes. -> git commit -m "your commit message".
 
 6. push your changes. -> git push
 
