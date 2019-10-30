@@ -16,3 +16,12 @@ To Contribute follow the below steps.
 7. Now go to your repository . Click on  Pull Request.
 
 Thats it ! 
+
+
+## 💻 Developed & Maintained By 
+
+```
+Ashwin Kushwah
+```
+- Github (http://github.com/AshwinKushwah)
+- LinkedIn (https://www.linkedin.com/in/ashwin-kushwah-466210143/)
