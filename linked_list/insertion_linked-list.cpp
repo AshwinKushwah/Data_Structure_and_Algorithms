@@ -86,6 +86,39 @@ void append(Node** head_ref, int new_data)
 	last->next = new_node; 
 	return; 
 } 
+// function to insert a Node at required position 
+void insertPos(Node** current, int pos, int data) 
+{ 
+    // This condition to check whether the 
+    // position given is valid or not. 
+    if (pos < 1 || pos > size + 1) 
+        cout << "Invalid position!" << endl; 
+    else { 
+  
+        // Keep looping until the pos is zero 
+        while (pos--) { 
+  
+            if (pos == 0) { 
+  
+                // adding Node at required position 
+                Node* temp = getNode(data); 
+  
+                // Making the new Node to point to  
+                // the old Node at the same position 
+                temp->next = *current; 
+  
+                // Changing the pointer of the Node previous  
+                // to the old Node to point to the new Node 
+                *current = temp; 
+            } 
+            else
+              // Assign double pointer variable to point to the  
+              // pointer pointing to the address of next Node  
+              current = &(*current)->next; 
+        } 
+        size++; 
+    } 
+} 
 
 // This function prints contents of 
 // linked list starting from head 
@@ -122,6 +155,11 @@ int main()
 	// Insert 8, after 7. So linked 
 	// list becomes 1->7->8->6->4->NULL 
 	insertAfter(head->next, 8); 
+        
+        data = 1, pos = 1; 
+        insertPos(&head, pos, data); 
+        cout << "Linked list after insertion of 1 at position 1: ";
+        printList(head);
 	
 	cout<<"Created Linked list is: "; 
 	printList(head); 
