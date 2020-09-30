@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Sudoku_Solver
+comment1.params=
+comment1.target=Sudoku_Solver()
+comment2.params=
+comment2.target=void\ input()
+comment3.params=i\ r\ c
+comment3.target=boolean\ isSafe(int,\ int,\ int)
+comment4.params=
+comment4.target=boolean\ Solve()
+comment5.params=
+comment5.target=void\ print()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7
