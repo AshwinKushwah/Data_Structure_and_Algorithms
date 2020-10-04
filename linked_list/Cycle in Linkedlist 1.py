@@ -1,3 +1,6 @@
+# Note :- This code is also useful for find a mid point of linikedlist for that you have to make condition when fast pointer reach at end of linkedlist 
+# at that time slow pointer is at the mid of linkedlist
+
 class Node:
     def __init__(self , dataval=None):
         self.data = dataval
@@ -14,29 +17,8 @@ class LinkedList:
             print(printval.data)
             printval = printval.next
 
-# this program is using map we check wheather a node is present in map or not
-
-'''
-def iscycle(list):
-    list = list.head 
-    map = {}
-    while list is not None:
-    
-    # here we are checking for node address not node data
-    # so thats why we write list not list.data
-    
-        if list in map:
-            return True
-        map[list] = True
-        list = list.next
-    return False
-'''
-
 # Another Approach :
 # using fast and Slow Pointer
-
-# we can also find mid point of linked list :
-# when fast reach to last node at that time slow is at mid point of LL
 
 def Iscycle(list):
     fast = list.head
@@ -67,5 +49,5 @@ n4.next = n5
 n5.next = n6
 n6.next = n4 # cycle
 
-
+# Return true or False
 print(Iscycle(list))
