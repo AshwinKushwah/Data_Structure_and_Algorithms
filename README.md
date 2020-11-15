@@ -24,4 +24,4 @@ Thats it !
 Ashwin Kushwah
 ```
 - Github (http://github.com/AshwinKushwah)
-- LinkedIn (https://www.linkedin.com/in/ashwin-kushwah-466210143/)
+- LinkedIn (https://www.linkedin.com/in/ashwin-kushwah)
